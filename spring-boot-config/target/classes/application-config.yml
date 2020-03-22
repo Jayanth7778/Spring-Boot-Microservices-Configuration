@@ -1,0 +1,20 @@
+default:
+  msg: Hello Spring Boot
+
+app:
+  name: My App
+  description: Welcome to ${app.name}
+
+server:
+  port: 9090
+
+list:
+  values: 1,2,3
+
+db:
+  connection: '{connectionString: ''jdbc:mysql//127.0.0.1:3306/eventnow'', username:
+    ''root'', password: ''We3Dev@2020''}'
+  host: localhost
+  port: 3306
+
+management.endpoints.web.exposure.include: '*'

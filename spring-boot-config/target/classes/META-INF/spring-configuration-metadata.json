@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "db",
+      "type": "com.learn.microservices.configuration.controller.DBSettings",
+      "sourceType": "com.learn.microservices.configuration.controller.DBSettings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "db.connection",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.microservices.configuration.controller.DBSettings"
+    },
+    {
+      "name": "db.host",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.microservices.configuration.controller.DBSettings"
+    },
+    {
+      "name": "db.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.microservices.configuration.controller.DBSettings"
+    }
+  ],
+  "hints": []
+}
